@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setappointment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Set appointment Info"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <EditText
+                android:id="@+id/time1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter time"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#52afaa" />
+
+            <EditText
+                android:id="@+id/date1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter date"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#52afaa" />
+            <EditText
+                android:id="@+id/fn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your initial"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#52afaa" />
+            <EditText
+                android:id="@+id/did"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your id"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#52afaa" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="25dp">
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:background="@color/purple_700"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

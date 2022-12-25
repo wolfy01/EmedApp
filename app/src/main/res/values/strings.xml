@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">E-med</string>
+    <string name="first_name">First Name</string>
+    <string name="office_no">Office No.</string>
+    <string name="user_name">User Name</string>
+    <string name="age">Age</string>
+    <string name="password">Password</string>
+    <string name="rank">Rank</string>
+    <string name="id">Id</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="app_name1">bda</string>
+    <string name="donor_registration">Donor Registration</string>
+    <string name="sign_up_to_continue">Sign up to continue</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="enter_id_number">Enter ID Number</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="sign_up_now">Submit</string>
+    <string name="already_registered_sign_in">Already registered? Sign In</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login_page">Login Page</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in_now">Sign In Now</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="blood_donation_app">Blood Donation App</string>
+    <string name="donate_blood_and_save_lives">Donate blood and save lives</string>
+    <string name="hello_welcome_to_this_application">Hello, welcome to Emed</string>
+    <string name="what_best_describes_you">What best describes you?</string>
+    <string name="recipient_registration">See available donor</string>
+    <string name="blood_group">Blood Group:</string>
+    <string name="loading">Loading</string>
+    <string name="name">Name:</string>
+    <string name="phone">Phone:</string>
+
+    <string-array name="blood_groups">
+        <item>Select your blood group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="email">Email:</string>
+    <string name="nsu_id">NSU ID:</string>
+    <string name="logout">Logout</string>
+    <string name="you_are_sharing_blood">You\'re sharing blood</string>
+</resources>

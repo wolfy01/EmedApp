@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddinDoctor">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:gravity="top"
+            android:padding="25dp"
+            android:text="Enter the information below"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/et_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa" />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa" />
+        <EditText
+            android:id="@+id/et_age"
+            android:hint="@string/age"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/et_practitionerat"
+            android:hint="Practitioner at"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:id="@+id/et_rank"
+            android:hint="@string/rank"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/et_id"
+            android:hint="@string/id"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/et_office_no"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/office_no"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa" />
+        <EditText
+            android:id="@+id/et_user_name"
+            android:hint="@string/user_name"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="@string/password"
+            android:textColor="#000000"
+            android:textColorHint="#52afaa"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="25dp">
+            <Button
+                android:id="@+id/btn_submit"
+                android:background="@color/purple_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+  </androidx.constraintlayout.widget.ConstraintLayout>
